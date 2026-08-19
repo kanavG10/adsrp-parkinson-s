@@ -1,0 +1,11 @@
+# Pinned for cross-platform parity (macOS arm64 + Colab linux x86_64).
+# mediapipe 1.x crashes in PoseLandmarker on Apple Silicon, and 0.10.30 is the
+# first release with native arm64 wheels -- so 0.10.35 is the only line that
+# runs unchanged on both. Requires Python <=3.12 (no 3.13 wheels exist).
+mediapipe==0.10.35
+opencv-python>=4.9
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.7
+pyarrow>=14.0
+remotezip>=0.12

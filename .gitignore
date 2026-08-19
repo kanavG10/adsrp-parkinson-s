@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- gait keypoint pipeline ---
+.venv/
+.env
+.DS_Store
+data/
+outputs/
+models/*.task
